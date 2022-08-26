@@ -62,8 +62,7 @@ public class ShapeTest {
 				elementCounter++;
 			}
 		}
-		System.err.println((elementCounter >= ShapeTest.MIN_EDGE) ? shape.output(elementCounter)
-				: ("Cannot be a shape with two or less sides"));
+		System.err.println((elementCounter >= ShapeTest.MIN_EDGE) ? shape.output(elementCounter) : ("Cannot be a shape with two or less sides"));
 
 	}
 }
