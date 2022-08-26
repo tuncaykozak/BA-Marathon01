@@ -30,7 +30,7 @@ public class Shape {
 
 	public String output(int elementCounter) {
 
-		return "Your " + this.shapeNo + ". shape's perimeter is " + this.calculateArea(elementCounter) + " and area is " + this.calculateArea(elementCounter);
+		return "Your " + this.shapeNo + ". shape's perimeter is " + this.calculatePerimeter(elementCounter) + " and area is " + this.calculateArea(elementCounter);
 	}
 
 }
