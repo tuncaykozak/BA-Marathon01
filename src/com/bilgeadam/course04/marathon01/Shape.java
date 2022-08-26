@@ -11,7 +11,7 @@ public class Shape {
 		shapeNo = ++shapeCounter;
 	}
 
-	public int calculatePerimeter(int elementCounter) {
+	public int calculatePerimeter() {
 		int perimeter = 0;
 		for (int sideLength : this.edges) {
 			perimeter += sideLength;
@@ -30,7 +30,7 @@ public class Shape {
 
 	public String output(int elementCounter) {
 
-		return "Your " + this.shapeNo + ". shape's perimeter is " + this.calculatePerimeter(elementCounter) + " and area is " + this.calculateArea(elementCounter);
+		return "Your " + this.shapeNo + ". shape's perimeter is " + this.calculatePerimeter(elementCounter) + " and area is " + this.calculateArea();
 	}
 
 }
